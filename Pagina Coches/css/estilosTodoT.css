@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Titulo{
+    padding: 50px 0;
+    color: #45B39D;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #D4EFDF;  
+}
+
+nav{
+    text-align: right;
+    padding: 20px 25px 0 0;
+}
+
+nav > a{
+    color: #131010;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+/* detalle */
+
+.cont-desc{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cont-desc > img{
+    position: relative;
+    width: 75%;
+    height: 75%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.descripcion{
+    padding: 10px;
+    width: 50%;
+    text-align: left;
+    text-align: justify;
+}
+ 
+.descripcion p{
+    margin-bottom: 20px;
+}
+
+.descripcion a{
+    margin-bottom: 20px;
+}
+
+
+/* otros */
+
+.opciones{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+}
+
+.imagen{
+    width: 100%;
+    height: 210px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagen > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.unique{
+    text-align: center;
+}
+
+.unique > a{
+    color: #131010;
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer{
+    background: #414141;
+    padding: 45px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #45B39D;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
